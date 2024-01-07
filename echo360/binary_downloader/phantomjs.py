@@ -14,6 +14,7 @@ class PhantomjsDownloader(BinaryDownloader):
         self._os_windows_64 = "windows"
         self._os_darwin_32 = "macosx"
         self._os_darwin_64 = "macosx"
+        self._os_darwin_arm = "macosx"
         return super(PhantomjsDownloader, self).get_os_suffix()
 
     def get_download_link(self):
